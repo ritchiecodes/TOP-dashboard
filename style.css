@@ -46,14 +46,6 @@ body {
     font-size: 24px;
 }
 
-
-/* Main Content */
-.content {
-    display: grid;
-    grid-template-columns: 80vw;
-    grid-template-rows: 10vh 15vh 75vh;
-}
-
 /* Top Bar */
 .topbar {
     display: flex;
@@ -139,5 +131,41 @@ body {
     font-size: 24px;
 }
 
+button {
+    background: #1992d4;
+    border-radius: 28px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    width: 120px;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-right: 24px;
+}
+
 
 /* Main Content */
+.content {
+    display: grid;
+    grid-template-columns: 80vw;
+    grid-template-rows: 10vh 15vh 75vh;
+}
+
+.main-content {
+    background-color:#e2e8f0;
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    grid-template-rows: 40vh 40vh;
+}
+
+.calendar-main {
+    grid-column: 1 / 1;
+    grid-row: 1 / 3;
+}
