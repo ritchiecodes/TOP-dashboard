@@ -1,0 +1,33 @@
+* {
+    border: 2px solid red;
+}
+
+#page {
+    display: grid;
+    grid-template-columns: 30vw 70vw;
+    grid-template-rows: 100vh;
+}
+
+.sidebar {
+    background-color: #1992d4;
+    color: white;
+}
+
+.topbar {
+    display: grid;
+    grid-template-columns: 40vw 10vw 10vw 10vw;
+    grid-template-rows: 5vh;
+}
+
+.titlebar {
+    display: grid;
+    grid-template-columns: 30vw 10vw 10vw 10vw 10vw;
+    grid-template-rows: 10vh;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 60vw 30vw;
+    grid-template-rows: 70vh;
+}
+
