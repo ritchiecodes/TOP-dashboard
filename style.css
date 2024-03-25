@@ -10,52 +10,56 @@ body {
 
 #page {
     display: grid;
-    grid-template-columns: 20vw 70vw;
-    grid-template-rows: 100vh;
+    grid-template: 100vh / 20vw 70vw;
+
 }
 
+/* Left Nav Bar */
 .sidebar {
     background-color: #1992d4;
     color: white;
-    display: grid;
 }
 
-.topbar {
-    display: grid;
-    grid-template-columns: 40vw 10vw 10vw 10vw;
-    grid-template-rows: 5vh;
-}
-
-.titlebar {
-    display: grid;
-    grid-template-columns: 30vw 10vw 10vw 10vw 10vw;
-    grid-template-rows: 10vh;
-}
-
-.main-content {
-    display: grid;
-    grid-template-columns: 60vw 30vw;
-    grid-template-rows: 70vh;
-}
-.full-logo {
+.logo {
     display: flex;
     justify-content: left;
     align-items: center;
     padding: 18px;
 }
 
-.logo {
-    height: 56px;
+.logo > .logoimg {
+    height: 64px;
 }
 
-.logotext {
+.logo > .logotext {
     font-size: 32px;
     font-weight: 600;
     padding-left: 12px;
 }
 
 .nav-list {
-    font-size: 24px;
+    display: grid;
+    grid-template-columns: 3vw 10vw;
+    grid-template-rows: 5vh 5vh 5vh 5vh 5vh;
+    padding: 36px;
     font-weight: 500;
-    padding: 18px;
+    font-size: 24px;
+}
+
+
+/* Main Content */
+.content {
+    display: grid;
+    grid-template-columns: 70vw;
+    grid-template-rows: 10vh 15vh 75vh;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titlebar {
+    display: flex;
+    justify-content: space-between;
 }
