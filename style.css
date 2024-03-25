@@ -1,16 +1,23 @@
-* {
+/* * {
     border: 2px solid red;
+} */
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #page {
     display: grid;
-    grid-template-columns: 30vw 70vw;
+    grid-template-columns: 20vw 70vw;
     grid-template-rows: 100vh;
 }
 
 .sidebar {
     background-color: #1992d4;
     color: white;
+    display: grid;
 }
 
 .topbar {
@@ -30,4 +37,25 @@
     grid-template-columns: 60vw 30vw;
     grid-template-rows: 70vh;
 }
+.full-logo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 18px;
+}
 
+.logo {
+    height: 56px;
+}
+
+.logotext {
+    font-size: 32px;
+    font-weight: 600;
+    padding-left: 12px;
+}
+
+.nav-list {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 18px;
+}
