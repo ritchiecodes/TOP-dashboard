@@ -163,6 +163,7 @@ button {
     grid-template-rows: 38vh 40vh;
 }
 
+/* Calendar */
 .calendar-main {
     grid-column: 1 / 1;
     grid-row: 1 / 3;
@@ -199,6 +200,18 @@ button {
     padding: 32px 0px 0px 28px;
   }
 
+  .calendar-div {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 12px 12px 4px 11px;
+  }
+
+  .calendar-body {
+    color: grey;
+    padding: 0px 12px;
+  }
+
+  /* Todo */
   .todo-text {
     font-size: 22px;
     font-weight: 500;
@@ -210,12 +223,25 @@ button {
     box-shadow: 0 2px 8px 0px rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 20vw;
-    height: 28vh;
+    height: 27vh;
     border-radius: 12px;
+    padding: 12px 0px 0px 0px
   }
   
   .todo-card:hover {
     box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+  }
+
+  .todo-list {
+    font-size: 22px;
+    font-weight: 500;
+    padding: 12px 12px 4px 36px;
+  }
+
+  .todo-body {
+    font-size: 14px;
+    color: grey;
+    padding: 0px 12px 12px 38px;
   }
 
   .solid {
@@ -223,9 +249,10 @@ button {
     height: 1px;
     border: 0;
     border-top: 1px solid #bbbbbb9d;
-    width: 80%
+    width: 80%;
   }
 
+  /* Notes */
   .notes-text {
     font-size: 22px;
     font-weight: 500;
@@ -239,6 +266,14 @@ button {
     width: 20vw;
     height: 28vh;
     border-radius: 12px;
+    padding: 6px 0px 0px 0px;
+  }
+
+  .notes-div {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 12px 4px 24px;
+    text-decoration: underline;
   }
   
 
