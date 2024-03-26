@@ -42,6 +42,10 @@ body {
     font-size: 24px;
 }
 
+.nav-list:hover {
+    cursor: pointer;
+}
+
 /* Top Bar */
 .topbar {
     display: flex;
@@ -66,13 +70,21 @@ body {
     text-decoration: none;
     border: 1px solid #e2e8f0;
     background-color: #e2e8f0;
-    height: 24px;
+    height: 4px;
     width: 40vw;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    color: grey;
 }
+
 
 .notifications {
     font-size: 24px;
-    margin-left:
+}
+
+.notifications:hover {
+    cursor: pointer;
 }
 
 .profile-pic {
@@ -148,6 +160,11 @@ button {
     margin-right: 24px;
 }
 
+button:hover {
+    background: #00a6ff;
+    cursor: pointer;
+}
+
 
 /* Main Content */
 .content {
@@ -188,6 +205,7 @@ button {
   
   .calendar-item:hover {
     box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
   }
 
   .calendar-card {
@@ -252,6 +270,10 @@ button {
     width: 80%;
   }
 
+  .todo-list:hover, .todo-body:hover {
+    cursor: pointer;
+  }
+
   /* Notes */
   .notes-text {
     font-size: 22px;
@@ -274,6 +296,14 @@ button {
     font-weight: 500;
     padding: 12px 12px 4px 24px;
     text-decoration: underline;
+  }
+
+  .notes-card:hover {
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+  }
+
+  .notes-div:hover {
+    cursor: pointer;
   }
   
 
