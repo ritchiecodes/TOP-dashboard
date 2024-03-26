@@ -108,6 +108,8 @@ body {
     align-items: center;
     padding: 24px;
     padding-left: 48px;
+    box-shadow: 0 12px 12px -12px rgba(0, 0, 0, 0.2); 
+    position: relative;
 }
 
 .welcome {
@@ -161,11 +163,87 @@ button {
 .main-content {
     background-color:#e2e8f0;
     display: grid;
-    grid-template-columns: 40vw 40vw;
-    grid-template-rows: 40vh 40vh;
+    grid-template-columns: 57.8vw 30vw;
+    grid-template-rows: 38vh 40vh;
 }
 
 .calendar-main {
     grid-column: 1 / 1;
     grid-row: 1 / 3;
 }
+
+.calendar-objects {
+    padding: 12px 12px;
+    display: grid;
+    grid-template-columns: 28vw 24vw;
+    grid-template-rows: 22vh 22vh;
+}
+
+.calendar-item {
+    background-color: white;
+    box-shadow: 0 2px 8px 0px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 26vw;
+    height: 18vh;
+    border-radius: 12px;
+    border-left: 8px solid #f0b429;
+  }
+  
+  .calendar-item:hover {
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+  }
+
+  .calendar-card {
+    padding: 2px 16px;
+  }
+
+  .calendar-text {
+    font-size: 22px;
+    font-weight: 500;
+    padding: 32px 0px 0px 28px;
+  }
+
+  .todo-text {
+    font-size: 22px;
+    font-weight: 500;
+    padding: 32px 0px 12px 0px;
+  }
+
+  .todo-card {
+    background-color: white;
+    box-shadow: 0 2px 8px 0px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20vw;
+    height: 28vh;
+    border-radius: 12px;
+  }
+  
+  .todo-card:hover {
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+  }
+
+  .solid {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #bbbbbb9d;
+    width: 80%
+  }
+
+  .notes-text {
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0px 0px 12px 0px;
+  }
+
+  .notes-card {
+    background-color: white;
+    box-shadow: 0 2px 8px 0px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20vw;
+    height: 28vh;
+    border-radius: 12px;
+  }
+  
+
+
