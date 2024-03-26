@@ -243,7 +243,8 @@ button:hover {
     width: 20vw;
     height: 27vh;
     border-radius: 12px;
-    padding: 12px 0px 0px 0px
+    padding: 12px 0px 0px 0px;
+    overflow: hidden;
   }
   
   .todo-card:hover {
@@ -254,6 +255,7 @@ button:hover {
     font-size: 22px;
     font-weight: 500;
     padding: 12px 12px 4px 36px;
+
   }
 
   .todo-body {
@@ -289,6 +291,7 @@ button:hover {
     height: 28vh;
     border-radius: 12px;
     padding: 6px 0px 0px 0px;
+    overflow: hidden;
   }
 
   .notes-div {
